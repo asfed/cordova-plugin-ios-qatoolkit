@@ -1,4 +1,6 @@
 # Cordova iOS QAToolkit Plugin
+[![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url]
+
 by Andrey Fedorov, email: asfedorov@gmail.com
 
 
