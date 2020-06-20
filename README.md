@@ -10,5 +10,5 @@ Add QAToolkit widget to Debug version, iOS 8 minimum required
 
 Cordova CLI
 ```
-$ cordova plugin add ./plugins/cordova-plugin-ios-qatoolkit  --link
+$ cordova plugin cordova-plugin-ios-qatoolkit
 ```
