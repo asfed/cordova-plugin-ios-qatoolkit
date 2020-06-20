@@ -4,7 +4,7 @@
 @implementation QAToolkitPlugin
 
 - (void)pluginInitialize {
-  NSLog(@"QAToolkit initialization sterted");
+  NSLog(@"QAToolkit initialization started");
   [QAToolkit setup];
   NSLog(@"QAToolkit initialization completed");
 }
