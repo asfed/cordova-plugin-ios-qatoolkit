@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-ios-qatoolkit"
+        version="1.0.0">
+
+  <name>iOs QATookit Plugin</name>
+
+  <description>
+    Add QAToolkit widget to Debug version
+  </description>
+
+  <author>Andrey Fedorov</author>
+
+  <license>MIT</license>
+
+  <keywords>QA, QAToolkit, iOS8</keywords>
+
+  <repo>https://github.com/asfed/cordova-plugin-ios-qatoolkit.git</repo>
+
+  <issue>https://github.com/asfed/cordova-plugin-ios-qatoolkit.git/issues</issue>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+    <engine name="cordova-ios" version=">=5.0.0"/>
+  </engines>
+
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="QAToolkitPlugin">
+        <param name="ios-package" value="QAToolkitPlugin"/>
+        <param name="onload" value="true"/>
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/QAToolkitPlugin.h"/>
+    <source-file src="src/ios/QAToolkitPlugin.m"/>
+
+    <podspec>
+      <config>
+        <source url="https://github.com/asfed/QAToolkit.git"/>
+      </config>	
+      <pods>
+        <pod name="QAToolkit" git="https://github.com/asfed/QAToolkit.git" branch="POD" configurations="Debug" />
+      </pods>
+    </podspec>
+
+  </platform>
+
+</plugin>

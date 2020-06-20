@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-ios-qatoolkit",
+  "version": "1.0.0",
+  "description": "\n    Add QAToolkit widget to Debug version\n  ",
+  "cordova": {
+    "id": "cordova-plugin-ios-qatoolkit",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asfed/cordova-plugin-ios-qatoolkit.git"
+  },
+  "keywords": [
+    "QA",
+    "QAToolkit",
+    "iOS8",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "asfedorov@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asfed/cordova-plugin-ios-qatoolkit/issues"
+  },
+  "homepage": "https://github.com/asfed/cordova-plugin-ios-qatoolkit#readme"
+}
