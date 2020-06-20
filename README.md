@@ -1,5 +1,5 @@
 # Cordova iOS QAToolkit Plugin
-by Andrey Fedorov - [@asfedorovgit](email: asfedorov@gmail.com)
+by Andrey Fedorov, email: asfedorov@gmail.com
 
 
 ## Description
