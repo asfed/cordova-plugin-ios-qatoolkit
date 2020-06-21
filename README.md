@@ -1,9 +1,6 @@
 # Cordova iOS QAToolkit Plugin
 [![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url] [![Donate][donate-img]][donate-url]
 
-by Andrey Fedorov, email: asfedorov@gmail.com
-
-
 ## Description
 
 Add QAToolkit widget to Debug version, iOS 8 minimum required
@@ -19,3 +16,12 @@ $ cordova plugin add cordova-plugin-ios-qatoolkit
 [npm-downloads]: https://img.shields.io/npm/dm/cordova-plugin-ios-qatoolkit.svg
 [donate-img]: https://img.shields.io/badge/donate-patreon-green.svg
 [donate-url]: https://www.patreon.com/asfedorov
+
+honeGap Build
+```xml
+<gap:plugin name="cordova-plugin-ios-qatoolkit" source="npm" />
+```
+
+## Supported Platforms
+
+- iOS

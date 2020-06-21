@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-ios-qatoolkit"
-        version="1.0.4">
+        version="1.0.5">
 
   <name>iOs QATookit Plugin</name>
 

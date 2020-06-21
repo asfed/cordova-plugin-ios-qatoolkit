@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ios-qatoolkit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "\n    Add QAToolkit widget to Debug version\n  ",
   "cordova": {
     "id": "cordova-plugin-ios-qatoolkit",
