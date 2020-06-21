@@ -17,7 +17,7 @@ $ cordova plugin add cordova-plugin-ios-qatoolkit
 [donate-img]: https://img.shields.io/badge/donate-patreon-green.svg
 [donate-url]: https://www.patreon.com/asfedorov
 
-honeGap Build
+PhoneGap Build
 ```xml
 <gap:plugin name="cordova-plugin-ios-qatoolkit" source="npm" />
 ```
