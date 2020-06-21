@@ -20,6 +20,7 @@ PhoneGap Build
 ## Supported Platforms
 
 - iOS
+
 [npm-url]: https://www.npmjs.com/package/cordova-plugin-ios-qatoolkit
 [npm-version]: https://img.shields.io/npm/v/cordova-plugin-ios-qatoolkit.svg
 [npm-downloads]: https://img.shields.io/npm/dm/cordova-plugin-ios-qatoolkit.svg
